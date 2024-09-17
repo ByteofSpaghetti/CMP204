@@ -1,0 +1,154 @@
+.event-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to fill the viewport vertically */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+#About {
+  padding: 10px;
+}
+li {
+  text-align: left;
+  margin: 10px;
+}
+
+#Count, #countdown {
+  text-align: center;
+}
+#colleagueImage {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
+.team-member {
+  display: flex;
+  align-items: center;
+}
+
+#TeamImage {
+  width: 120px; /* Adjust image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and text */
+}
+.dropbtn {
+  background-color: plum;
+  color: white;
+  border: plum;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+form {
+  border: 20px solid plum;
+  background-color: plum;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: plum;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: plum;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: plum;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+body {
+  font-family: cursive;
+  background-color: skyblue;
+  line-height: 1.6;
+  margin: 0;
+
+}
+
+p{
+  color:black;
+  text-align:left;
+}
+
+.custom-navbar {
+  background-color: plum;
+}
+table {
+  border-collapse: collapse;
+  padding: 25px;
+  font-size: 1em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.reqCol{
+width:30%;
+}
+
+.metCol{
+width:60%;
+}
+
+.fileCol{
+width:10%;
+}
+
+
+td { 
+  padding: 5px;
+}
+
+thead tr {
+  background-color: #2864be;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+ tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: plum;
+}
